@@ -1,0 +1,72 @@
+/* Basic page beautification */
+:root {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background: #f5f7fb;
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+body {
+  padding: 2rem;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1f2937;
+  margin-top: 0;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button,
+input[type="submit"] {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 999px;
+  background: #2563eb;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background: #1d4ed8;
+}
+
+code, pre {
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  background: #eef2ff;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
